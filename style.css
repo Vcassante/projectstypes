@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    background: #6565b2;
+    color: white;
+    justify-content: center;
+}
+
+
+
+.container{
+    width: 750px;
+    background-color: #2A2A4A;
+    margin-top: 7rem;
+    padding: 3.5rem;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+.input_field{
+    margin-bottom: 2rem;
+}
+
+.input_field input{
+    padding: 9px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.input_field input::placeholder{
+    font-size: 16px;
+    color: rgba(59, 58, 58, 0.589);
+}
+
+.input_field select{
+    padding: 9px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(59, 58, 58);
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.recommend{
+    margin-bottom: 2rem;
+}
+
+.recommend input{
+    cursor: pointer;
+    margin-right: 5px;
+    transform: scale(1.5);
+}
+
+.improved{
+    margin-bottom: 2rem;
+}
+
+.improved input{
+    cursor: pointer;
+    margin-right: 5px;
+    transform: scale(1.5);
+}
+
+.improved .options_improve{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_area textarea{
+    width: 100%;
+    height: 9rem;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.text_area textarea::placeholder{
+    font-size: 16px;
+}
+
+#button{
+    color: white;
+    background-color: #37AF65;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 1.5rem;
+    border-radius: 2px;
+    width: 100%;
+    cursor: pointer ;
+}
+
+
+
+
+
+
+
